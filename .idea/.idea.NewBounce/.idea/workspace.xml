@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6dfa9708-182e-431f-b317-3ed1a5cb3e68" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Bounce/Assets/Scripts/EditNew/EditorMouse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Arthur/Assets/Scripts/Main/UserInterface/UINavigation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B29948A-FAE6-4159-850D-5E42B96208E7/2f/b8cebbf5/Boolean.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E5B75411-C8CD-4BFA-A9E7-60BE20206F29/f6/a63098b4/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Main/MainInterface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Bounce/Assets/Scripts/EditNew/EditorManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/421852A5-267C-4284-AEC1-A2BA29ECBCE5/ad/a45d93e4/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Edit/EditorKeyboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Arthur/Assets/Scripts/Main/UserInterface/UIView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E5B75411-C8CD-4BFA-A9E7-60BE20206F29/e6/0ec74cd1/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E5B75411-C8CD-4BFA-A9E7-60BE20206F29/94/82881c9e/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/Object/EditorDecoration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/MenuCategory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/SizeGuide.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/EditorKeyboard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/UI/TileCreateView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/UI/ItemCreateView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Item/ChangeHump.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/Object/EditorObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/Object/EditorPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/Object/EditorTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/Object/EditorItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/UI/InfoPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Item/ChangeJump.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Tile/WallTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InfomationReceiver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InfomationProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StageInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Item/Wall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Main/StageButtonCreator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScrollContent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/MenuInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/UI/SettingView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/UI/ChangeStageNamePanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameInformation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StageButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/UI/SavePanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Tile/Tile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Tile/GroundTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Control.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameStageMenuCreator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/StageClearInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JsonLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResourceLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Data/SaveData.json" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Item/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Item/Destination.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Item/Star.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Item/Key.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/CameraMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Item/Door.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/StageManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Item/ChangeBounce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/EditorManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/EditorMouse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Edit/UI/FileView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StageButtonCreator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InformationProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Main/MainInterface.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mZ4tZBmW12jhQdkSJuQT9Lmke5" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6dfa9708-182e-431f-b317-3ed1a5cb3e68" name="Default Changelist" comment="" />
+      <created>1609687995063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609687995063</updated>
+      <workItem from="1609687999013" duration="1190000" />
+      <workItem from="1609689209897" duration="14964000" />
+      <workItem from="1609744789152" duration="11303000" />
+      <workItem from="1609772887937" duration="13228000" />
+      <workItem from="1609842727121" duration="15411000" />
+      <workItem from="1609934631428" duration="14211000" />
+      <workItem from="1610032458573" duration="3453000" />
+      <workItem from="1610095392517" duration="8797000" />
+      <workItem from="1610117860331" duration="5556000" />
+      <workItem from="1610205948176" duration="8245000" />
+      <workItem from="1610834379427" duration="2342000" />
+      <workItem from="1610896543295" duration="8195000" />
+      <workItem from="1610981374348" duration="1282000" />
+      <workItem from="1618933277854" duration="39000" />
+      <workItem from="1618933361984" duration="1329000" />
+      <workItem from="1619170562125" duration="6141000" />
+      <workItem from="1619197516663" duration="14522000" />
+      <workItem from="1619278521327" duration="15398000" />
+      <workItem from="1619501516921" duration="14226000" />
+      <workItem from="1619538350544" duration="9203000" />
+      <workItem from="1619721477341" duration="6828000" />
+      <workItem from="1619775139542" duration="2757000" />
+      <workItem from="1619808621153" duration="8093000" />
+      <workItem from="1619855153760" duration="3431000" />
+      <workItem from="1620121137289" duration="4520000" />
+      <workItem from="1620190837199" duration="1016000" />
+      <workItem from="1620660261509" duration="3660000" />
+      <workItem from="1620713316312" duration="9959000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="619" y="260" key="RiderGenerateDialog" timestamp="1620716210367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="619" y="260" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620716210367" />
+    <state x="759" y="260" width="668" height="536" key="find.popup" timestamp="1620717409482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1161" y="260" width="642" height="536" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1619503464636" />
+    <state x="759" y="260" width="668" height="536" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620717409482" />
+    <state x="647" y="271" width="700" height="530" key="recent.locations.popup" timestamp="1619521996880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1273" y="271" width="700" height="530" key="recent.locations.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1619511047719" />
+    <state x="647" y="271" width="700" height="530" key="recent.locations.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619521996880" />
+    <state x="478" y="251" key="run.anything.popup" timestamp="1619865193645">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1442" y="251" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1619510316982" />
+    <state x="478" y="251" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619865193645" />
+    <state x="743" y="246" width="672" height="678" key="search.everywhere.popup" timestamp="1620721531922">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1177" y="246" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1619508310720" />
+    <state x="743" y="246" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620721531922" />
+  </component>
+</project>
