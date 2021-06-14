@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5250897676993037444}
   - component: {fileID: 9204283639218882034}
   m_Layer: 0
-  m_Name: ChangeJump5
+  m_Name: ChangeBounce5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: f7d69802dfabf324a89f604a67b60280, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 216303b2da7a7a643b05bc3ed62db8b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

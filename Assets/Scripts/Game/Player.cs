@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
     {
         currentCoor = new Vector2Int(x, y);
         transform.position = new Vector3(currentCoor.x, 0, currentCoor.y) * TilePositionSetting.Instance.tileInterval;
-        cameraMove.SetInitialPosition(currentCoor, bounceCount);
+        // cameraMove.SetInitialPosition(currentCoor, bounceCount);
     }
 
     // 플레이어를 이동시킵니다.
@@ -75,7 +75,7 @@ public class Player : MonoBehaviour
             else
             {
                 yield return StartCoroutine(MoveStraight(directionCoor));
-                cameraMove.MoveCameraCoordinate(bounceCount, currentCoor, directionCoor);
+                // cameraMove.MoveCameraCoordinate(bounceCount, currentCoor, directionCoor);
             }
             
             currentBounceCount += 1;

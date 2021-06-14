@@ -153,6 +153,8 @@ MonoBehaviour:
   stageIndex: 0
   stageStarNum: 03000000030000000200000001000000010000000200000002000000
   stageDataset: []
+  originalStarNum: 
+  allOpenedStarNum: 
 --- !u!4 &75230810
 Transform:
   m_ObjectHideFlags: 0
@@ -215,10 +217,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1080, y: 1920}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1221,7 +1223,7 @@ PrefabInstance:
     - target: {fileID: 2404976271475726389, guid: 2bc72c954038ed241a2f2687cf4fc897,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0036621094
+      value: 0.00390625
       objectReference: {fileID: 0}
     - target: {fileID: 2404976271475726389, guid: 2bc72c954038ed241a2f2687cf4fc897,
         type: 3}
@@ -1266,7 +1268,7 @@ PrefabInstance:
     - target: {fileID: 2404976271689667728, guid: 2bc72c954038ed241a2f2687cf4fc897,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 960.0037
+      value: 960.0027
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bc72c954038ed241a2f2687cf4fc897, type: 3}

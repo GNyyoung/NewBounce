@@ -35,7 +35,7 @@ public class Control : MonoBehaviour
             float wheelInput = Input.GetAxis("Mouse ScrollWheel");
             if (wheelInput != 0)
             {
-                cameraMove.ZoomCamera(wheelInput);
+                cameraMove.ZoomCamera(wheelInput * 3);
             }
 
             CheckTouchMove();

@@ -92,8 +92,8 @@ namespace MapEditor
                 }
             }
 
-            int correctionPosX = leftBorder < 0 ? leftBorder : 0;
-            int correctionPosY = bottomBorder < 0 ? bottomBorder : 0;
+            int correctionPosX = Mathf.Abs(leftBorder) > 0 ? leftBorder : 0;
+            int correctionPosY = Mathf.Abs(bottomBorder) > 0 ? bottomBorder : 0;
             var player = _editorManager.playerObject.GetComponent<EditorPlayer>();
             
             Debug.Log($"{correctionPosX}, {correctionPosY}");

@@ -64,6 +64,13 @@ public class ResourceLoader
 
     public string GetSaveData()
     {
-        return File.ReadAllText($"{Application.persistentDataPath}/SaveData.json");
+        if (File.Exists($"{Application.persistentDataPath}/SaveData.json"))
+        {
+            return File.ReadAllText($"{Application.persistentDataPath}/SaveData.json");    
+        }
+        else
+        {
+            return null;
+        }
     }
 }

@@ -5,19 +5,12 @@ using UnityEngine;
 
 public class CameraMove : MonoBehaviour
 {
+    private float verticalSpace = 0.75f;
+    
     public GameObject playerObject;
     public StageManager stageManager;
     public float minZoom = 25;
     public float maxZoom;
-    
-    private void Update()
-    {
-        // var playerPosition = playerObject.transform.position;
-        // transform.position = new Vector3(
-        //     playerPosition.x, 
-        //     transform.position.y, 
-        //     playerPosition.z - (transform.position.y / Mathf.Tan(transform.localEulerAngles.x * Mathf.Deg2Rad)));
-    }
 
     public void MoveCameraCoordinate(int bounceCount, Vector2Int playerCoor, Vector2Int directionCoor)
     {
@@ -78,11 +71,29 @@ public class CameraMove : MonoBehaviour
         transform.position = new Vector3(posX, transform.position.y, posY);
     }
 
-    public void SetCameraSize(int bounceCount)
+    public void SetInitialPosition(int width, int height)
     {
-        var cameraSize = (bounceCount + 3) * (float)Screen.height / Screen.width / 2;
+        transform.position = new Vector3((width - 1) / 2.0f, transform.position.y, (height / verticalSpace - 1) / 2.0f - 1);
+    }
+
+    public void SetCameraSize(int width, int height)
+    {
+        float cameraSize = 1;
+        float ScreenAspect = (float)Screen.height / Screen.width;
+        if (height + 2 > (width + 2) * ScreenAspect)
+        {
+            Debug.Log("세로");
+            cameraSize = height / verticalSpace / 2;
+        }
+        else
+        {
+            Debug.Log("가로");
+            cameraSize = (width + 2) * (float)Screen.height / Screen.width / 2;
+        }
+        
         GetComponent<Camera>().orthographicSize = cameraSize;
         maxZoom = cameraSize;
+        minZoom = maxZoom * 2;
     }
 
     // 카메라 줌인, 줌아웃에 사용

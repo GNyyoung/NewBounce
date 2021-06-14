@@ -48,7 +48,7 @@ public class StageManager : MonoBehaviour
 
     private void LoadStage()
     {
-        var stageInfo = JsonLoader.LoadStage(InformationProvider.Instance.stageDataset[InformationProvider.Instance.stageIndex]);
+        var stageInfo = JsonLoader.LoadStage(InformationProvider.Instance.stageDataset[InformationProvider.Instance.stageIndex - 1]);
         
         // 타일 생성
         _tileInfo = new Tile[stageInfo.width, stageInfo.height];
@@ -99,7 +99,8 @@ public class StageManager : MonoBehaviour
         // 게임 정보 UI 초기화
         gameInformation.Initialize(stageInfo.bounceCount, initialStarNum);
         
-        CameraMove.SetCameraSize(stageInfo.width);
+        CameraMove.SetCameraSize(stageInfo.width, stageInfo.height);
+        CameraMove.SetInitialPosition(stageInfo.width, stageInfo.height);
     }
 
     public Tile GetTile(Vector2Int coordinate)
