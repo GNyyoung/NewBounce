@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class MainInterface : MonoBehaviour
@@ -46,6 +47,18 @@ public class MainInterface : MonoBehaviour
             InformationProvider.Instance.stageStarNum = InformationProvider.Instance.allOpenedStarNum;
             stageButtonCreator.UpdateStageButton();
             isOpenAll = true;
+        }
+    }
+
+    public void DeleteSaveData()
+    {
+        var saveDataPath = $"{Application.persistentDataPath}/SaveData.json"; 
+        if (File.Exists(saveDataPath))
+        {
+            File.Delete(saveDataPath);
+            InformationProvider.Instance.stageStarNum = new List<int>();
+            InformationProvider.Instance.originalStarNum = new List<int>();
+            stageButtonCreator.UpdateStageButton();
         }
     }
 }

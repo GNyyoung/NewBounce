@@ -82,6 +82,12 @@ public class StageButtonCreator : MonoBehaviour
                 stageButton.entranceButton.interactable = false;
             }
         }
+
+        var clearStageNum = InformationProvider.Instance.stageStarNum.Count;
+        if (clearStageNum < stageContent.transform.childCount)
+        {
+            stageContent.transform.GetChild(clearStageNum).GetComponent<StageButton>().entranceButton.interactable = true;   
+        }
     }
 
     private void SetStageButtonObjPosition(GameObject stageButtonObject, int stageNum)
